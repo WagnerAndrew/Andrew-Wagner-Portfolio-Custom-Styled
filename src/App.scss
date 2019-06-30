@@ -1,22 +1,8 @@
 @charset 'UTF-8';
 
 // Configuration and helpers
-@import './sass/stylesheets/abstracts/mixins',
-  './sass/stylesheets/abstracts/mixins';
-
-// Base stuff
-@import './sass/stylesheets/base/animations', './sass/stylesheets/base/base',
-  './sass/stylesheets/base/colors', './sass/stylesheets/base/fonts',
-  './sass/stylesheets/base/typography', './sass/stylesheets/base/helpers';
-
-// Layout-related sections
-@import './sass/stylesheets/layout/grid';
-
-// Components
-@import './sass/stylesheets/components/button',
-  './sass/stylesheets/components/card', './sass/stylesheets/components/header',
-  './sass/stylesheets/components/backdrop',
-  './sass/stylesheets/components/navbar',
-  './sass/stylesheets/components/drawertogglebutton',
-  './sass/stylesheets/components/sidedrawer',
-  './sass/stylesheets/components/textfield';
+@import './sass/functions', './sass/mixins', './sass/animations', './sass/base',
+  './sass/colors', './sass/fonts', './sass/typography', './sass/helpers',
+  './sass/grid', './sass/button', './sass/card', './sass/header',
+  './sass/backdrop', './sass/navbar', './sass/drawertogglebutton',
+  './sass/sidedrawer', './sass/textfield';
