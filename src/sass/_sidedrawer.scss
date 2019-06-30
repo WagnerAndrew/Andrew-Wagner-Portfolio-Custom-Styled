@@ -1,0 +1,49 @@
+.sideDrawer {
+  height: 100%;
+  background: $color-2-dark;
+  color: #ffffff;
+  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  z-index: 200;
+  padding: 2em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+  font-size: 8em;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li {
+    text-decoration: none;
+    margin: 0.5rem 0;
+  }
+
+  a {
+    color: $color-white;
+    text-decoration: none;
+    margin-right: 1em;
+
+    &:hover {
+      color: $color-1;
+    }
+  }
+}
+
+.sideDrawer.open {
+  transform: translateX(0);
+}
+
+@media (min-width: 769px) {
+  .sideDrawer {
+    display: none;
+  }
+}

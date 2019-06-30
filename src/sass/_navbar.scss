@@ -1,0 +1,44 @@
+.navbar {
+  // display: flex;
+  // align-items: center;
+  padding: 1rem 0;
+  background-color: $color-2;
+
+  font-size: 4em;
+  margin-top: 0.5em;
+
+  &__navigationItems {
+    ul {
+      list-style: none;
+      margin-left: 0.4em;
+      padding: 0;
+      display: flex;
+    }
+
+    li {
+      padding: 0 0.5rem;
+    }
+
+    a {
+      color: $color-white;
+      text-decoration: none;
+      margin-right: 1em;
+
+      &:hover {
+        color: $color-1;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar__navigationItems {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar__toggleButton {
+    display: none;
+  }
+}
