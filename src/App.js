@@ -11,7 +11,7 @@ import SmartCards1 from './images/SmartCards1.png';
 import SFU1 from './images/SFU1.png';
 import MemoryGame1 from './images/MemoryGame1.png';
 
-import './sass/stylesheets/main.scss';
+import './App.scss';
 
 class App extends Component {
   state = {
