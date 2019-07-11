@@ -33,24 +33,24 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-red,
-          $color-red-light
+          $color-3,
+          $color-3-light
         );
       }
 
       &-2 {
         background-image: linear-gradient(
           to right bottom,
-          $color-green,
-          $color-green-light
+          $color-3,
+          $color-3-light
         );
       }
 
       &-3 {
         background-image: linear-gradient(
           to right bottom,
-          $color-blue,
-          $color-blue-light
+          $color-3,
+          $color-3-light
         );
       }
     }
@@ -77,31 +77,31 @@
     &--1 {
       background-image: linear-gradient(
         to right bottom,
-        $color-red,
-        $color-red-light
+        $color-3,
+        $color-3-light
       );
     }
 
     &--2 {
       background-image: linear-gradient(
         to right bottom,
-        $color-green,
-        $color-green-light
+        $color-3,
+        $color-3-light
       );
     }
 
     &--3 {
       background-image: linear-gradient(
         to right bottom,
-        $color-blue,
-        $color-blue-light
+        $color-3,
+        $color-3-light
       );
     }
   }
 
   &__heading {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     // text-transform: uppercase;
     text-align: right;
     color: $color-white;
@@ -121,7 +121,7 @@
 
       li {
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         padding: 1rem;
 
         &:not(:last-child) {

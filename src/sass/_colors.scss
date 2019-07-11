@@ -1,15 +1,16 @@
 // COLORS
-$color-1: #ff6f61;
-$color-1-light: #ff867b;
-$color-1-dark: #ff5848;
 
-$color-2: #45b5aa;
-$color-2-light: #55beb4;
-$color-2-dark: #3ea399;
+$color-1: #ef5455;
+$color-1-light: lighten($color-1, 15%);
+$color-1-dark: darken($color-1, 15%);
 
-$color-3: #decdbe;
-$color-3-light: #e7dacf;
-$color-3-dark: #d5c0ad;
+$color-2: #fad744;
+$color-2-light: lighten($color-2, 15%);
+$color-2-dark: darken($color-2, 15%);
+
+$color-3: #2b3252;
+$color-3-light: lighten($color-3, 15%);
+$color-3-dark: darken($color-3, 15%);
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
@@ -21,13 +22,26 @@ $color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
-$color-red: #e2583e;
-$color-red-light: #ea8a77;
-
-$color-blue: #9bb7d4;
-$color-blue-light: #b9cce0;
-
-$color-green: #88b04b;
-$color-green-light: #abc781;
-
 $color-white-smoke: #f5f5f5;
+
+// COLORS
+// $color-1: #ff6f61;
+// $color-1-light: #ff867b;
+// $color-1-dark: #ff5848;
+
+// $color-2: #45b5aa;
+// $color-2-light: #55beb4;
+// $color-2-dark: #3ea399;
+
+// $color-3: #decdbe;
+// $color-3-light: #e7dacf;
+// $color-3-dark: #d5c0ad;
+
+// $color-red: #e2583e;
+// $color-red-light: #ea8a77;
+
+// $color-blue: #9bb7d4;
+// $color-blue-light: #b9cce0;
+
+// $color-green: #88b04b;
+// $color-green-light: #abc781;

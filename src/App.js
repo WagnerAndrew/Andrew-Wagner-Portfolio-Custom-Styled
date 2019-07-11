@@ -41,7 +41,7 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <TextField>
-          <h6>About Me</h6>
+          <h5>About Me</h5>
           <p>
             I’m a Full Stack Web Developer with previous work experience as an
             audio-visual systems programmer.
@@ -54,6 +54,18 @@ class App extends Component {
             When I'm not programming, I'm probably writing songs, debating who's
             the best coffee roaster in town or lost somewhere in the Rockies.
           </p>
+        </TextField>
+        <TextField>
+          <h5>Technical Skills</h5>
+          <p>
+            React, Angular, MongoDB, MySQL, PostgreSQL, Express, Node,
+            JavaScript, jQuery, Handlebars, HTML, CSS, GitHub, Heroku, Amazon S3
+          </p>
+        </TextField>
+        <TextField>
+          {' '}
+          <h5>Projects</h5>
+          <hr />
         </TextField>
 
         <Row>
@@ -95,14 +107,6 @@ class App extends Component {
             GitLink='https://github.com/WagnerAndrew/Rock-and-Roll-Memory-Game'
           />
         </Row>
-
-        <TextField>
-          <h6>Technical Skills</h6>
-          <p>
-            React, Angular, MongoDB, MySQL, PostgreSQL, Express, Node,
-            JavaScript, jQuery, Handlebars, HTML, CSS, GitHub, Heroku, Amazon S3
-          </p>
-        </TextField>
       </div>
     );
   }

@@ -11,6 +11,7 @@
     position: relative;
     font-size: $default-font-size;
     margin: 0.5em;
+    color: $color-1;
 
     //Change for the <button> element
     border: none;
@@ -40,15 +41,6 @@
 
     &::after {
       background-color: $color-white;
-    }
-  }
-
-  &--green {
-    background-color: $color-1;
-    color: $color-white;
-
-    &::after {
-      background-color: $color-1;
     }
   }
 
