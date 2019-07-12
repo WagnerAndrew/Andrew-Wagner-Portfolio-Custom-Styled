@@ -18,7 +18,7 @@ export default function Card(props) {
           <div class='card__details'>
             <ul>
               <li>
-                <img class='card__image' src={props.image} />
+                <img class='card__image' src={props.image} alt={props.alt} />
               </li>
               <li>{props.li1}</li>
               <li>{props.li2}</li>

@@ -63,8 +63,9 @@ class App extends Component {
           </p>
         </TextField>
         <TextField>
-          {' '}
           <h5>Projects</h5>
+        </TextField>
+        <TextField>
           <hr />
         </TextField>
 
@@ -72,6 +73,7 @@ class App extends Component {
           <Card
             number='1'
             title='SmartCards'
+            alt='SmartCards'
             image={SmartCards1}
             li1='SmartCards is a full stack application built with React,
           MongoDB, Express and Node'
@@ -84,6 +86,7 @@ class App extends Component {
           <Card
             number='2'
             title='Simple File Upload'
+            alt='Simple File Upload'
             image={SFU1}
             li1="This application utilizes Amazon's S3 to store uploaded
           files"
@@ -97,6 +100,7 @@ class App extends Component {
           <Card
             number='3'
             title='Rock & Roll Memory Game'
+            alt='Rock & Roll Memory Game'
             image={MemoryGame1}
             li1='This is a memory game built with React'
             li2='Test your memory by avoiding a double click on a Rock &
